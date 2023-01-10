@@ -12,6 +12,10 @@ body {
   min-height: 100vh;
 }
 
+h2 {
+  margin: 0;
+}
+
 .wrapper {
   display: flex;
   justify-content: center;
@@ -35,6 +39,11 @@ ul {
   padding: 0;
 }
 
+ul li {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
 button {
   background-color: #3f70f8;
   display: block;
@@ -46,4 +55,9 @@ button {
   font-size: 1.3rem;
   padding: 1rem;
   border-radius: 0 0 10px 10px;
+}
+
+button:hover {
+  background-color: #2647a1;
+  cursor: pointer;
 }
